@@ -95,7 +95,7 @@ namespace topic_3_monogame
                 tribbleGreySpeed.X *= -1;
                 tribblegreymask = Color.Orange;
             }
-            if (tribbleGreyRect.Bottom > Window.Height || tribbleGreyRect.Top < 0)
+            if (tribbleGreyRect.Top > Window.Height || tribbleGreyRect.Bottom < 0)
             {
                 tribbleGreySpeed.Y *= -1;
                 tribbleGreyRect.Y = Random.Next(1,801);
